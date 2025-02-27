@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Zoeker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .pokemon-list {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 0;
+            list-style: none;
+        }
+
+        .pokemon-list li {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        button {
+            background-color: #ffcc00;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        button:hover {
+            background-color: #ffaa00;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Pokémon Zoeker</h1>
+    <section>
+        <label for="zoekveld">Voer de naam of het nummer van een Pokémon in:</label>
+        <input type="text" id="zoekveld" placeholder="...">
+        <button id="zoek-knop">Zoek Pokémon</button>
+    </section>
+
+    <section id="detailvenster">
+        <h2>Pokémons</h2>
+        <ul class="pokemon-list">
+            <li>
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur" width="50">
+                <button type="button">Bulbasaur</button>
+                <p>Type: Plant en vis</p>
+            </li>
+            <li>
+                <img src= alt="">
+                <button type="button">Charmander</button>
+                <p>Type: Vuur</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Squirtle</button>
+                <p>Type: Water</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Pikachu</button>
+                <p>Type: Elektrisch</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Jigglypuff</button>
+                <p>Type: Normaal en fee</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Meowth</button>
+                <p>Type: Normaal</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Psyduck</button>
+                <p>Type: Water</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Machop</button>
+                <p>Type: Vechter</p>
+            </li>
+            <li>
+                <img src="" alt="Geodude">
+                <button type="button">Geodude</button>
+                <p>Type: Grond en bodem</p>
+            </li>
+            <li>
+                <img src="" alt="">
+                <button type="button">Eevee</button>
+                <p>Type: Normaal</p>
+            </li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
+
