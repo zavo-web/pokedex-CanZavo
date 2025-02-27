@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10 px;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <!--Header-->
+   <h1>Pokémon Zoeker</h1>
+   <section>
+    <label for="zoekveld">Voer de naam of het nummer van een Pokémon in:</label>
+    <input type="text" id="zoekveld" placeholder="...">
+    <button id="zoek-knop">Zoek Pokémon</button>
+    </section>
+
+   <!--Detailvenster-->
+   <section id="detailvenster">
+    <article>
+        <header>
+            <h2 id="pokemon-naam">Pokémons</h2>
+        </header>
+        <ul>
+            <li><a href="" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur" width="50">
+                <button type ="button">Bulbasaur</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/charmander" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/4.png" alt="Charmander" width="50">
+                <button type="Button">Charmander</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/squirtle" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/7.png" alt="Squirtle" width="50">
+                <button type ="Squirtle">Squirtle</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/pikachu" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png" alt="Pikachu" width="50">
+                <button type ="button">Pikachu</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/jigglypuff" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/39.png" alt="Jigglypuff" width="50">
+                <button type="button">Jigglypuff</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/meowth" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/52.png" alt="Meowth" width="50">
+                <button type="button">Meowth</button>
+            </a></li>
+            <li><a href="" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/54.png" alt="Psyduck" width="50">
+                <button type="button">Psyduck</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/machop" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/66.png" alt="Machop" width="50">
+                <button type="button">Machop</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/geodude" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/74.png" alt="Geodude" width="50">
+                <button type="button">Geodude</button>
+            </a></li>
+            <li><a href="https://www.pokemon.com/nl/pokedex/eevee" target="_blank">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/133.png" alt="Eevee" width="50">
+                <button type="button">Eevee</button>
+            </a></li>
+        </ul>
+
+</body>
+</html>
